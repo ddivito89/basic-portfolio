@@ -87,7 +87,7 @@ header {
 .leftBox {
   margin-top:50px;
   width: 650px;
-  height: 500px;
+  height: 575px;
   background-color: #ffffff;
   border: 1px solid #dddddd;
   color: #777777;
@@ -106,7 +106,17 @@ header {
 .leftBox img{
   float:left;
   padding:0px 20px 0px 0px;
+  height: 150px;
+  width:200px;
 }
+
+.portfolio img {
+  float:left;
+  padding:0px 20px 0px 0px;
+  height: 125px;
+  width:200px;
+}
+
 .leftBox p{
   line-height: 32px;
   overflow-wrap;
@@ -156,6 +166,7 @@ textarea {
     width: 100%;
     height: 150px;
     font-size: 16px;
+    resize: none;
 }
 
 button{
