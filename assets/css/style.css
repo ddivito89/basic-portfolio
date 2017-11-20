@@ -95,6 +95,17 @@ header {
   float:left;
 }
 
+.leftBoxPort {
+  margin-top:50px;
+  width: 650px;
+  height: 575px;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  color: #777777;
+  padding: 10px 30px 30px 30px;
+  float:left;
+}
+
 .leftBox h1{
   color: #4aaaa5;
   border-bottom: 2px solid #dddddd;
@@ -104,19 +115,28 @@ header {
   justify-content: space-between;
 
 }
+.leftBoxPort h1{
+  color: #4aaaa5;
+  border-bottom: 2px solid #dddddd;
+  height: 60px;
+  margin-bottom:10;
+  display: flex;
+  justify-content: space-between;
+}
 
 .leftBox img{
   float:left;
   padding:0px 20px 0px 0px;
   height: 150px;
   width:200px;
-
 }
 
-.portfolio img {
-  display: inline-block;
-  height: 125px;
-  width:200px;
+.leftBoxPort img {
+  height: 150px;
+  width:294px;
+  padding:10px 10px 10px 10px;
+  float:left;
+
 }
 
 .leftBox p{
@@ -145,7 +165,7 @@ header {
 
 #links{
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
 }
 .connect img{
   width: 65px;
@@ -171,7 +191,7 @@ input {
 
 textarea {
     width: 100%;
-    height: 150px;
+    height: 200px;
     font-size: 16px;
     resize: none;
 }
@@ -192,7 +212,4 @@ label{
 
 form{
   margin-top: 0;
-}
-
-.portRow{
 }
